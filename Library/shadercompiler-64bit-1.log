@@ -1,0 +1,246 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-2053886736
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=2156 outsize=907 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1548 outsize=604 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1548 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2108 outsize=961 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1446 outsize=558 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1446 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2221 outsize=972 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1548 outsize=604 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1548 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=594 outsize=591 ok=1
+Cmd: preprocess
+  insize=2167 outsize=918 ok=1
+Cmd: preprocess
+  insize=2223 outsize=1033 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1489 outsize=558 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1489 outsize=6 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1489 outsize=835 kw=PIXELSNAP_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1489 outsize=6 kw=PIXELSNAP_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1548 outsize=881 kw=PIXELSNAP_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1548 outsize=6 kw=PIXELSNAP_ON ok=1
+Cmd: preprocess
+  insize=2282 outsize=988 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1593 outsize=604 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1593 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2154 outsize=964 ok=1
+Cmd: preprocess
+  insize=2215 outsize=921 ok=1
+Cmd: preprocess
+  insize=2213 outsize=919 ok=1
+Cmd: preprocess
+  insize=2156 outsize=966 ok=1
+Cmd: preprocess
+  insize=2215 outsize=921 ok=1
+Cmd: preprocess
+  insize=2154 outsize=964 ok=1
+Cmd: preprocess
+  insize=2215 outsize=921 ok=1
+Cmd: preprocess
+  insize=2255 outsize=961 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1593 outsize=604 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1593 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2205 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1489 outsize=558 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1489 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2257 outsize=963 ok=1
+Cmd: preprocess
+  insize=2207 outsize=1017 ok=1
+Cmd: preprocess
+  insize=2255 outsize=961 ok=1
+Cmd: preprocess
+  insize=2255 outsize=961 ok=1
+Cmd: preprocess
+  insize=2255 outsize=961 ok=1
+Cmd: preprocess
+  insize=936 outsize=933 ok=1
+Cmd: preprocess
+  insize=2195 outsize=1005 ok=1
+Cmd: preprocess
+  insize=2200 outsize=1010 ok=1
+Cmd: preprocess
+  insize=2205 outsize=1015 ok=1
+Cmd: preprocess
+  insize=1805 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1089 outsize=0 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1089 outsize=6 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1089 outsize=0 kw=PIXELSNAP_ON ok=1
+Cmd: preprocess
+  insize=2004 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1288 outsize=0 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1288 outsize=6 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1288 outsize=0 kw=PIXELSNAP_ON ok=1
+Cmd: preprocess
+  insize=2205 outsize=1015 ok=1
+Cmd: preprocess
+  insize=2212 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1496 outsize=448 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1496 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2212 outsize=1014 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1496 outsize=543 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1496 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2210 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1494 outsize=558 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1494 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2213 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1497 outsize=526 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1497 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2210 outsize=1015 ok=1
+Cmd: preprocess
+  insize=2255 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1539 outsize=558 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1539 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2235 outsize=1014 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1519 outsize=558 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1519 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2237 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1521 outsize=540 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1521 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2237 outsize=1015 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (78): '_MainTex' : undeclared identifier; 'tex2D' : cannot resolve function call unambiguously (check parameter types)\nCompiling Vertex program with DUMMY
+  api=0 type=0 insize=1521 outsize=0 kw=DUMMY ok=0
+Cmd: preprocess
+  insize=2235 outsize=1014 ok=1
+Cmd: preprocess
+  insize=2238 outsize=1014 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1522 outsize=520 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1522 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2238 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1522 outsize=365 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1522 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2237 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1521 outsize=448 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1521 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2246 outsize=1015 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (78): 'previous' : undeclared identifier\nCompiling Vertex program with DUMMY
+  api=0 type=0 insize=1530 outsize=0 kw=DUMMY ok=0
+Cmd: preprocess
+  insize=2242 outsize=1015 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (78): 'a' :  no such field in structure; '*' :  wrong operand types  no operation '*' exists that takes a left-hand operand of type 'vec4' and a right operand of type 'in structure' (or there is no acceptable conversion)\nCompiling Vertex program with DUMMY
+  api=0 type=0 insize=1526 outsize=0 kw=DUMMY ok=0
+Cmd: preprocess
+  insize=2224 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1508 outsize=520 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1508 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2255 outsize=961 ok=1
+Cmd: preprocess
+  insize=2235 outsize=1014 ok=1
+Cmd: preprocess
+  insize=2258 outsize=961 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1596 outsize=406 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1596 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2255 outsize=961 ok=1
+Cmd: preprocess
+  insize=2235 outsize=1014 ok=1
+Cmd: preprocess
+  insize=2235 outsize=1014 ok=1
+Cmd: preprocess
+  insize=2235 outsize=1014 ok=1
+Cmd: preprocess
+  insize=2232 outsize=1015 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (78): 'previous' : undeclared identifier\nCompiling Vertex program with DUMMY
+  api=0 type=0 insize=1516 outsize=0 kw=DUMMY ok=0
+Cmd: preprocess
+  insize=2341 outsize=1004 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (68): '_MainTex_ST' : undeclared identifier; 'xy' : vector field selection out of range; 'zw' : vector field selection out of range\nCompiling Vertex program with DUMMY
+  api=0 type=0 insize=1636 outsize=0 kw=DUMMY ok=0
+Cmd: preprocess
+  insize=2232 outsize=1015 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1516 outsize=558 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1516 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2374 outsize=1003 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1669 outsize=668 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1669 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2302 outsize=1004 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1597 outsize=604 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1597 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2261 outsize=1044 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1516 outsize=558 kw=DUMMY ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1516 outsize=6 kw=DUMMY ok=1
+Cmd: preprocess
+  insize=2232 outsize=1015 ok=1
