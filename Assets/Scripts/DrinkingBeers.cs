@@ -4,6 +4,7 @@ using System.Collections;
 public class DrinkingBeers : MonoBehaviour {
 
 	public int maxBeersCount;
+	public AudioClip drinkSound;
 
 	private int beersCount;
 	private int drinkCount;
@@ -28,6 +29,8 @@ public class DrinkingBeers : MonoBehaviour {
 	void OnMouseDown ()
 	{
 		drinkCount++;
+		GetComponent<AudioSource>().PlayOneShot(drinkSound);
+
 		if(drinkCount >= targetDrinkCount){
 			targetDrinkCount = targetDrinkCount * 2;
 			if(beersCount < maxBeersCount) beersCount++;

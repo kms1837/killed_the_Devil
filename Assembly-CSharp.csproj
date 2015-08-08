@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\HMObejct.cs" />
      <Compile Include="Assets\Scripts\HeroMovement.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
+     <Compile Include="Assets\Scripts\ScreenChangeEffect.cs" />
      <None Include="Assets\Shader\testMask2.shader" />
      <None Include="Assets\Shader\Stencil Mask.shader" />
      <None Include="Assets\Shader\Stencil Draw In Mask.shader" />

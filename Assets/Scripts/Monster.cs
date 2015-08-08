@@ -59,15 +59,13 @@ public class Monster : HMObejct {
 			float knockBackX = joystick.GetAxis("Horizontal") + knockBackPoint;
 			float knockBackY = joystick.GetAxis("Vertical")	  + knockBackPoint;
 
-			if(this.tag == "normal"){
-				enterObject.gameObject.GetComponent<AudioSource>().pitch = 1.0f;
-				enterObject.gameObject.GetComponent<AudioSource>().PlayOneShot(attackSound);
-			}
-
 			if(objectBound.min.y > monsterBound.center.y) {
 				//back attack
 				this.lifePoint -= 1;
 				this.transform.Translate(knockBackX, knockBackY, 0);
+				enterObject.gameObject.GetComponent<AudioSource>().pitch = 1.0f;
+				enterObject.gameObject.GetComponent<AudioSource>().PlayOneShot(attackSound);
+
 			} else {
 				//front attack
 				enterObject.gameObject.GetComponent<HeroMovement>().lifePoint -= 1;
@@ -79,6 +77,8 @@ public class Monster : HMObejct {
 				}else{
 					this.lifePoint -= 1;
 					this.transform.Translate(knockBackX, knockBackY, 0);
+					enterObject.gameObject.GetComponent<AudioSource>().pitch = 1.0f;
+					enterObject.gameObject.GetComponent<AudioSource>().PlayOneShot(attackSound);
 				}
 			}
 
