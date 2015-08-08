@@ -6,6 +6,14 @@ public class HMObejct : MonoBehaviour {
 	public float moveSpeed;
 	public AudioClip walkSound;
 
+	private int life;
+
+	public int Life
+	{
+		get{ return this.life; }
+		set{ this.life = value; }
+	}
+
 	public void objectRotate(Transform rotateObject, Vector3 originP, Vector3 targetP, float correctAngle)
 	{
 		Vector3 moveDirection = targetP - originP; 

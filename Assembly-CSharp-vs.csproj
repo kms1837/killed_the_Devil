@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\DrinkingBeers.cs" />
      <Compile Include="Assets\Scripts\HMObejct.cs" />
      <Compile Include="Assets\Scripts\HeroMovement.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
      <Compile Include="Assets\Scripts\ScreenChangeEffect.cs" />
      <None Include="Assets\Shader\testMask2.shader" />

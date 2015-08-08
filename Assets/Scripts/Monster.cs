@@ -20,9 +20,9 @@ public class Monster : HMObejct {
 	void Start () {
 		moveFlag	= false;
 		targetFlag  = false;
+		this.Life	= this.lifePoint;
 		startPosition = this.transform.position;
 
-		iTweenPath.GetPath("CamPath");
 		startPathMove();
 	}
 
@@ -86,28 +86,28 @@ public class Monster : HMObejct {
 
 			if(objectBound.min.y > monsterBound.center.y) {
 				//back attack
-				this.lifePoint -= 1;
+				this.Life -= 1;
 				this.transform.Translate(knockBackX, knockBackY, 0);
 				enterObject.gameObject.GetComponent<AudioSource>().pitch = 1.0f;
 				enterObject.gameObject.GetComponent<AudioSource>().PlayOneShot(attackSound);
 
 			} else {
 				//front attack
-				enterObject.gameObject.GetComponent<HeroMovement>().lifePoint -= 1;
+				enterObject.gameObject.GetComponent<HeroMovement>().Life -= 1;
 				enterObject.transform.Translate(knockBackX * -1, knockBackY * -1, 0);
 
 				if(this.tag == "boss"){
 					enterObject.gameObject.GetComponent<AudioSource>().pitch = 1.0f;
 					enterObject.gameObject.GetComponent<AudioSource>().PlayOneShot(hitSound);
 				}else{
-					this.lifePoint -= 1;
+					this.Life -= 1;
 					this.transform.Translate(knockBackX, knockBackY, 0);
 					enterObject.gameObject.GetComponent<AudioSource>().pitch = 1.0f;
 					enterObject.gameObject.GetComponent<AudioSource>().PlayOneShot(attackSound);
 				}
 			}
 
-			if(this.lifePoint <= 0) {
+			if(this.Life <= 0) {
 				Destroy(gameObject);
 			}
 
