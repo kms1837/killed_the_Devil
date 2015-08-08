@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{3A372F9E-F193-BB94-FE22-3E0BEFF1255C}") = "Skilltreelab_GameJam_Project", "Assembly-CSharp-firstpass-vs.csproj", "{57B808D9-3531-8C23-8702-AB88725F053C}"
+EndProject
 Project("{3A372F9E-F193-BB94-FE22-3E0BEFF1255C}") = "Skilltreelab_GameJam_Project", "Assembly-CSharp-vs.csproj", "{99D154E7-EF49-3DA2-BC34-50B81AB66023}"
 EndProject
 Project("{3A372F9E-F193-BB94-FE22-3E0BEFF1255C}") = "Skilltreelab_GameJam_Project", "Assembly-CSharp-Editor-vs.csproj", "{EF539E3E-6C80-CB66-5F8F-A8E9FAF133EC}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57B808D9-3531-8C23-8702-AB88725F053C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B808D9-3531-8C23-8702-AB88725F053C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B808D9-3531-8C23-8702-AB88725F053C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B808D9-3531-8C23-8702-AB88725F053C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99D154E7-EF49-3DA2-BC34-50B81AB66023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99D154E7-EF49-3DA2-BC34-50B81AB66023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99D154E7-EF49-3DA2-BC34-50B81AB66023}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																													GlobalSection(MonoDevelopProperties) = preSolution
+																																																					GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

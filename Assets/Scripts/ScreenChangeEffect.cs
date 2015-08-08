@@ -77,7 +77,7 @@ public class ScreenChangeEffect : MonoBehaviour {
 	
 	void OnGUI() {
 		if(effectNumber > 0){
-			GUI.depth = -orderInLayer;
+			GUI.depth = orderInLayer;
 			GUI.color = currentColor;
 			GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeTexture);
 		}

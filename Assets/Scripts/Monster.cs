@@ -4,6 +4,8 @@ using System.Collections;
 public class Monster : HMObejct {
 	
 	public float setTargetTime;
+	public iTweenPath setPath = null;
+
 	public AudioClip attackSound;
 	public AudioClip hitSound;
 
@@ -11,19 +13,40 @@ public class Monster : HMObejct {
 	private bool targetFlag;
 	private GameObject target;
 
+	private Vector3 startPosition;
+
 	private float targetTime;
 
 	void Start () {
 		moveFlag	= false;
 		targetFlag  = false;
+		startPosition = this.transform.position;
+
+		iTweenPath.GetPath("CamPath");
+		startPathMove();
 	}
 
+	void startPathMove()
+	{
+		if(setPath != null) {
+			iTween.MoveFrom(gameObject, iTween.Hash ("path", iTweenPath.GetPath(setPath.pathName)
+			                                         , "time", 10.0f
+			                                         , "easetype", iTween.EaseType.linear
+			                                         , "looptype", "pingpong"                     
+			                                         ));
+		}
+	}
+	
 	void Update ()
 	{
 		if(moveFlag) {
 			Vector2 targetPosition  = target.transform.position;
 			transform.position		= Vector2.Lerp(transform.position, targetPosition, Time.deltaTime * moveSpeed);
 			objectRotate(this.transform, this.transform.position, targetPosition, 90.0f);
+		}else{
+			Vector2 originPosition	= transform.position;
+			Vector2 endPosition		= transform.position;
+			objectRotate(this.transform, this.transform.position, this.transform.position, 90.0f);
 		}
 
 		if(targetFlag) {
@@ -32,6 +55,8 @@ public class Monster : HMObejct {
 			if(targetTime >= setTargetTime) {
 				moveFlag	= false;
 				targetFlag  = false;
+				iTween.MoveTo(gameObject, startPosition, 15.0f);
+				startPathMove();
 			}
 		}
 	}
