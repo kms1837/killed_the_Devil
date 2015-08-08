@@ -4,6 +4,7 @@ using System.Collections;
 public class HMObejct : MonoBehaviour {
 	public int lifePoint;
 	public float moveSpeed;
+	public AudioClip walkSound;
 
 	public void objectRotate(Transform rotateObject, Vector3 originP, Vector3 targetP, float correctAngle)
 	{

@@ -21,9 +21,14 @@ public class HeroMovement : HMObejct {
 			if(stateName != "heroIdle") {
 				stateName = "heroIdle";
 				_heroTransform.GetComponent<Animator>().Play("heroIdle");
+				GetComponent<AudioSource>().Stop();
 			}
 		}else{
 			if(stateName != "walk") {
+				GetComponent<AudioSource>().clip = walkSound;
+				GetComponent<AudioSource>().pitch = 0.8f;
+				GetComponent<AudioSource>().loop = true;
+				GetComponent<AudioSource>().Play ();
 				stateName = "walk";
 				_heroTransform.GetComponent<Animator>().Play("heroWalk");
 			}

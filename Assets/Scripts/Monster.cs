@@ -4,6 +4,8 @@ using System.Collections;
 public class Monster : HMObejct {
 	
 	public float setTargetTime;
+	public AudioClip attackSound;
+	public AudioClip hitSound;
 
 	private bool moveFlag;
 	private bool targetFlag;
@@ -57,16 +59,27 @@ public class Monster : HMObejct {
 			float knockBackX = joystick.GetAxis("Horizontal") + knockBackPoint;
 			float knockBackY = joystick.GetAxis("Vertical")	  + knockBackPoint;
 
+			if(this.tag == "normal"){
+				enterObject.gameObject.GetComponent<AudioSource>().pitch = 1.0f;
+				enterObject.gameObject.GetComponent<AudioSource>().PlayOneShot(attackSound);
+			}
+
 			if(objectBound.min.y > monsterBound.center.y) {
 				//back attack
 				this.lifePoint -= 1;
 				this.transform.Translate(knockBackX, knockBackY, 0);
 			} else {
 				//front attack
-				this.lifePoint -= 1;
-				this.transform.Translate(knockBackX, knockBackY, 0);
 				enterObject.gameObject.GetComponent<HeroMovement>().lifePoint -= 1;
 				enterObject.transform.Translate(knockBackX * -1, knockBackY * -1, 0);
+
+				if(this.tag == "boss"){
+					enterObject.gameObject.GetComponent<AudioSource>().pitch = 1.0f;
+					enterObject.gameObject.GetComponent<AudioSource>().PlayOneShot(hitSound);
+				}else{
+					this.lifePoint -= 1;
+					this.transform.Translate(knockBackX, knockBackY, 0);
+				}
 			}
 
 			if(this.lifePoint <= 0) {
