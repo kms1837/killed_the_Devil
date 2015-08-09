@@ -125,9 +125,13 @@ public class HeroMovement : HMObejct {
 	{
 		if(!gameOverFlag){
 			for(int i=0; i<this.Life; i++){
-				Rect beerIconR = new Rect(((50+iconGAP) * i) + startL, startT, 50, 50);
-				if(i==0) GUI.DrawTexture(beerIconR, lastLifeTexure);
-				else 	 GUI.DrawTexture(beerIconR, lifeTexure);
+				if(i==0){
+					Rect beerIconR = new Rect(((50+iconGAP) * i) + startL, startT, 90, 50);
+					GUI.DrawTexture(beerIconR, lastLifeTexure);
+				}else{
+					Rect beerIconR = new Rect(((50+iconGAP) * i) + startL, startT, 60, 50);
+					GUI.DrawTexture(beerIconR, lifeTexure);
+				}
 			}
 		}else{
 			//game over
